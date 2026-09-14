@@ -12,8 +12,9 @@ This repository demonstrates how to estimate unmeasurable (latent) states from n
 
 The leaching process is modeled as a well-mixed continuous stirred-tank reactor (CSTR) with two inlet streams:
 
-![Leaching Reactor PFD](figures/PFD.png)
-
+<div align="center">
+  <img src="figures/PFD.png" width="250">
+</div>
 
 $$\frac{dC_{\text{Cu}}^{(s)}}{dt} = \frac{F}{V}(C_{\text{Cu},in}^{(s)} - C_{\text{Cu}}^{(s)}) - r$$
 
