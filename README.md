@@ -32,7 +32,7 @@ $$\text{pH} = -\log_{10}(C_{\text{H}}) + v, \quad v \sim \mathcal{N}(0, R)$$
 Model parameters:
 - $F$ = slurry volumetric flow rate (m³/min)
 - $V$ = reactor volume (m³)
-- $k$ = reaction rate constant (1/(min·(mol/m³)))
+- $k$ = reaction rate constant (m³/(min·mol))
 - $\gamma$ = stoichiometric acid consumption per mole Cu dissolved
 - $C_{\text{H},in}$ = acid concentration in feed (mol/m³)
 - $C_{\text{Cu},in}^{(s)}$ = solid copper concentration in feed (mol/m³)
@@ -67,19 +67,3 @@ Particle Filter implementation with animated visualization.
 - `scipy` — ODE integration (`solve_ivp`)
 - `jax` — automatic differentiation for computing Jacobians
 - `matplotlib` — plotting
-
-## Usage
-
-Clone the repository and run the notebooks:
-
-```bash
-git clone https://github.com/tmlouw/State-estimation-example.git
-cd State-estimation-example
-jupyter notebook
-```
-
-Each notebook is self-contained and includes setup, simulation, and visualization.
-
-## License
-
-MIT License — see [LICENSE](LICENSE) for details.
